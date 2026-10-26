@@ -18,7 +18,7 @@ source .venv/bin/activate
 python3 -m pip install -r requirements.txt
 ```
 
-API 地址通过 `PERSKIT_API_URL` 环境变量配置，避免将内部地址写入并公开到源码中。也可以在运行时用 `--api-url` 覆盖环境变量；没有配置时脚本会报错退出。环境变量只是配置隔离，不是加密。API 地址通常不是访问凭据，但仍可能暴露内部网络信息；API 密钥等凭据不应写进源码或提交到版本库。
+API 地址通过 `PERSKIT_API_URL` 环境变量配置，避免将内部地址写入并公开到源码中。也可以在运行时用 `--api-url` 覆盖环境变量；没有配置时脚本会报错退出。
 
 ```bash
 export PERSKIT_API_URL="https://api.example.com/v1/chat/completions"
