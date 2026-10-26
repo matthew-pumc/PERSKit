@@ -5,8 +5,23 @@
 ## 文件
 
 - `query_document.py`：处理脚本。
+- `csv2jsonl.py`：将导出的 CSV/TSV 题录转换为 JSONL。
 - `queries.json`：问题配置，可按需修改。
 - `requirements.txt`：Python 第三方依赖。
+
+## 题录转换
+
+`csv2jsonl.py` 可将文献管理工具导出的 CSV 或 TSV 题录转换为 JSONL，每行输出一条题录记录。脚本会自动判断分隔符，并保留中文等非 ASCII 字符。
+
+```bash
+python3 csv2jsonl.py exported_records.csv records.jsonl
+```
+
+如果只需要保留具有 DOI 的题录，可使用 `--filter-empty-doi`。脚本会在存在 `article.doi` 列时过滤空 DOI 记录：
+
+```bash
+python3 csv2jsonl.py exported_records.csv records.jsonl --filter-empty-doi
+```
 
 ## 环境准备
 
