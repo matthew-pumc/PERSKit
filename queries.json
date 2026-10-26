@@ -1,0 +1,11 @@
+{
+  "Gene": "摘要（Abstract）中主要提到了什么基因，仅保留提到次数最多的1个",
+  "Full name": "摘要（Abstract）中主要提到基因的的全称是什么",
+  "Species": "摘要（Abstract）中主要提到的基因来自于什么物种，使用拉丁学名回答，如果没有，回答文章主要在研究什么物种",
+  "Subcellular location": "摘要（Abstract）中主要提到的基因的亚细胞定位在哪里，使用英文原文回答",
+  "Phenotype": "摘要（Abstract）中存在基因功能缺陷或过表达的植物具有什么特征，注意使用英文原文回答",
+  "Influence by stress": "摘要（Abstract）中主要提到的基因是否受胁迫诱导或者抑制，注意用英文原文回答",
+  "Related elements": "摘要（Abstract）中主要提到的基因和除了自身外的哪些元件相关？元件涵盖了基因，蛋白质，RNA，激素，无机盐离子和有机化合物等，但不能是宽泛的分类名称如salt，alkaline，flavonoid。注意仅给出元件名，存在全称的在括号内标明，多个元件之间用英文半角分号“;”分隔",
+  "Relationship": "摘要（Abstract）中主要提到的基因和其他关联元件之间的关系是什么？元件涵盖了基因，蛋白质，RNA，激素，无机盐离子和有机化合物等，但不能是宽泛的分类名称如salt，alkaline，flavonoid。注意使用英文原文回答",
+  "DOI": "文章的DOI是什么"
+}

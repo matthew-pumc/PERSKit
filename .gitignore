@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.env.*
+
+/input.jsonl
+/output.tsv
+/error_files.txt
+
+# Local document fixtures may contain copyrighted or sensitive content.
+/test/*.txt
